@@ -1,7 +1,7 @@
 {
   "name": "@pancakeswap/interface",
   "description": "Pancakeswap Interface",
-  "homepage": "http://shahzi8285.github.io/echoDao",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@binance-chain/bsc-connector": "^1.0.0",
@@ -74,7 +74,6 @@
     "@types/testing-library__cypress": "^5.0.8",
     "cypress": "^4.11.0",
     "eslint": "^7.2.0",
-    "gh-pages": "^3.1.0",
     "husky": "4.3.5",
     "prettier": "^2.1.2",
     "qs": "^6.9.4",
@@ -91,9 +90,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix",
-    "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'"
+   
   },
   "husky": {
     "hooks": {
