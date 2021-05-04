@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: '#',
+    href: 'http://echoswap.app',
   },
   {
     label: 'Trade',
@@ -24,39 +24,34 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: '#',
+    href: 'http://echoswap.app/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: '#',
+    href: 'http://echoswap.app/farms',
   },
   {
-    label: 'Lottery',
-    icon: 'TicketIcon',
+    label: 'Voting (BETA)',
     href: '#',
+    icon: 'NftIcon',
   },
-  // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: 'https://pancakeswap.finance/nft',
-  // },
-  // {
+   // {
   //   label: 'Teams & Profile',
   //   icon: 'GroupsIcon',
   //   calloutClass: 'rainbow',
   //   items: [
   //     {
   //       label: 'Leaderboard',
-  //       href: 'https://pancakeswap.finance/teams',
+  //       href: '/teams',
   //     },
   //     {
   //       label: 'Task Center',
-  //       href: 'https://pancakeswap.finance/profile/tasks',
+  //       href: '/profile/tasks',
   //     },
   //     {
   //       label: 'Your Profile',
-  //       href: 'https://pancakeswap.finance/profile',
+  //       href: '/profile',
   //     },
   //   ],
   // },
@@ -85,30 +80,29 @@ const config: MenuEntry[] = [
   // {
   //   label: 'IFO',
   //   icon: 'IfoIcon',
-  //   href: 'https://pancakeswap.finance/ifo',
+  //   href: '/ifo',
   // },
-  // {
-  //   label: 'More',
-  //   icon: 'MoreIcon',
-  //   items: [
-  //     {
-  //       label: 'Voting',
-  //       href: 'https://voting.pancakeswap.finance',
-  //     },
-  //     {
-  //       label: 'Github',
-  //       href: 'https://github.com/pancakeswap',
-  //     },
-  //     {
-  //       label: 'Docs',
-  //       href: 'https://docs.pancakeswap.finance',
-  //     },
-  //     {
-  //       label: 'Blog',
-  //       href: 'https://pancakeswap.medium.com',
-  //     },
-  //   ],
-  // },
+  {
+    label: 'More',
+    icon: 'MoreIcon',
+    items: [
+      // {
+      //   label: 'Voting',
+      //   href: 'https://voting.pancakeswap.finance',
+      // },
+      {
+        label: 'Github',
+        href: 'https://github.com/',
+      },
+      // {
+      //   label: 'Docs',
+      //   href: 'https://docs.pancakeswap.finance',
+      // },
+      {
+        label: 'Blog',
+        href: 'https://echelondao.medium.com/echelon-dao-d7ab030ac02d',
+      },
+    ]}
 ]
 
 export default config
